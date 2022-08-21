@@ -103,7 +103,7 @@ const MovieList = (props: MovieListProps) => {
               alt={`Poster image for ${movie.title}`}
               width={500}
               height={800}
-              className="object-cover pointer-events-none group-hover:opacity-75"
+              className="object-cover pointer-events-none group-hover:opacity-75 "
             />
             <button
               type="button"
